@@ -45,7 +45,7 @@ html, body {
 }
 
 .bgd-contain > img {
-    width: 100%;
+    width: 90%;
     height: auto;
     vertical-align: middle;
     display: block;
