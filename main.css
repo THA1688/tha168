@@ -1,0 +1,487 @@
+/*公共*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) {
+    #main {
+        width: 1000px;
+        height: 100%;
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+#main > .content-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #999977;
+    overflow: scroll;
+}
+
+/*组件*/
+.bgd-contain {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.bgd-contain > img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: block;
+}
+
+.bgd-contain > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/*主样式*/
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.content-container > div {
+    width: 100%;
+}
+
+.contain1 {
+    line-height: 40px;
+    background-color: #274D71;
+    text-align: center;
+    font-size: 14px;
+    font-family: "微軟正黑體", "蘋果儷中黑", "Lucida Grande", "Arial", "Arial Narrow";
+    color: #A4AEBD;
+
+    background-image: url("../img/KUlogo001.png");
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: 5% center;
+}
+
+.contain2 {
+    position: relative;
+}
+
+.contain2 > .d1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.contain2 > .d1 .lunbotu {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.contain2 > .d1 .lunbotu:first-child {
+    margin-left: -00%;
+    transition: margin-left 1s ease-in;
+}
+
+.contain2 > .d1 .bt1 {
+    width: 24.2%;
+    height: 13.47%;
+    position: absolute;
+    left: 4.3%;
+    top: 62.4%;
+}
+
+.contain2 > .d1 .bt2 {
+    width: 24.2%;
+    height: 13.5%;
+    position: absolute;
+    right: 4.1%;
+    top: 64.6%;
+}
+
+.contain2 > .d1 .bt3 {
+    width: 24.2%;
+    height: 14%;
+    position: absolute;
+    left: 4%;
+    top: 64.5%;
+}
+
+.contain2 > .d1 .bt4 {
+    width: 24.2%;
+    height: 13.5%;
+    position: absolute;
+    right: 4.1%;
+    top: 64.6%;
+}
+
+.contain2 > .d2 {
+    width: 70%;
+    position: absolute;
+    left: 4%;
+    top: 88%;
+    font-size: 12px;
+    color: #DBE2EE;
+}
+
+.contain2 > .d3 {
+    width: 14.25%;
+    height: 4%;
+    position: absolute;
+    right: 3.75%;
+    top: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contain2 > .d3 img {
+    height: 100%;
+}
+
+.contain3 .d1 {
+    width: 31%;
+    position: absolute;
+    right: 5.5%;
+    top: 8%;
+}
+
+.contain3 .d2 {
+    width: 30.8%;
+    position: absolute;
+    left: 63.6%;
+    top: 28%;
+}
+
+.contain3 .d3 {
+    width: 30.8%;
+    position: absolute;
+    left: 63.6%;
+    top: 66%;
+}
+
+.contain3 .d4 {
+    display: block;
+    width: 92.3%;
+    height: 38%;
+    position: absolute;
+    left: 4%;
+    top: 24.4%;
+    border: 0px solid red;
+}
+
+.contain3 .d5 {
+    display: block;
+    width: 92.3%;
+    height: 38%;
+    position: absolute;
+    left: 4%;
+    bottom: 0;
+    border: 0px solid red;
+}
+
+.contain3 .d5 > img {
+    height: 100%;
+}
+
+.contain4 {
+    background-color: #274D71;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain4 > div {
+    width: 92.2%;
+    height: 100%;
+    background-color: #1F3E5A;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #CDD1D2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain5 .d1 {
+    width: 31.2%;
+    position: absolute;
+    left: 22.1%;
+    top: 3.7%;
+}
+
+.contain5 .d2 {
+    width: 31%;
+    position: absolute;
+    right: 8.8%;
+    top: 3.7%;
+}
+
+.contain5 .area .area1 {
+    width: 69.8%;
+    height: 58.8%;
+    position: absolute;
+    left: 12.2%;
+    top: 11%;
+}
+
+.contain5 .area .area1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.contain5 .area .area2 {
+    width: 67.3%;
+    height: 20%;
+    position: absolute;
+    right: 27%;
+    bottom: 0;
+    font-size: 12px;
+    color: #FBFAF3;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.contain6 .d1 {
+    width: 65.6%;
+    position: absolute;
+    left: 5.3%;
+    top: 6.5%;
+}
+
+.contain6 .d2 {
+    width: 21.6%;
+    height: 72.8%;
+    position: absolute;
+    left: 4.1%;
+    top: 18.2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contain6 .d2 .bt {
+    width: 100%;
+    height: 12.5%;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FAF8F3;
+    font-size: 12px;
+    background-color: #3D789A;
+}
+
+.contain6 .d2 .bt:hover {
+    background-color: #E29441;
+}
+
+.contain6 .d2 .bt:first-child {
+    background-color: #E29441;
+}
+
+.contain6 .d3 {
+    width: 68.1%;
+    height: 39.5%;
+    position: absolute;
+    right: 3.8%;
+    top: 18.3%;
+}
+
+.contain6 .d4 {
+    width: 68.1%;
+    height: 28.7%;
+    position: absolute;
+    right: 3.8%;
+    bottom: 10.66%;
+}
+
+.contain6 .d3 > *, .contain6 .d4 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.contain6 .d3 > *:first-child, .contain6 .d4 img:first-child {
+    display: block;
+}
+
+.contain6 .d3 .button1 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 6.5%;
+}
+
+.contain6 .d3 .button2 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 10.5%;
+}
+
+.contain6 .d3 .button3 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 10.5%;
+}
+
+.contain6 .d3 .button4 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 6.5%;
+}
+
+.contain6 .d3 .button5 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 10.5%;
+}
+
+.contain6 .d3 .button6 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 6.5%;
+}
+
+.contain6 .d3 .button7 {
+    width: 33.7%;
+    height: 20%;
+    position: absolute;
+    left: 5.5%;
+    bottom: 10.5%;
+}
+
+.contain7 .d1 {
+    width: 65.6%;
+    position: absolute;
+    left: 5.3%;
+    top: 6.5%;
+}
+
+.contain7 .d2 {
+    width: 37.5%;
+    /*height: 36.1%;*/
+    position: absolute;
+    left: 6.4%;
+    top: 15.7%;
+}
+
+.contain7 .d3 {
+    width: 30%;
+    position: absolute;
+    left: 10%;
+    bottom: 15%;
+}
+
+.contain7 .d4 {
+    width: 35%;
+    position: absolute;
+    right: 7.37%;
+    top: 15.7%;
+}
+
+.contain7 .d5 {
+    width: 37.5%;
+    position: absolute;
+    right: 6.3%;
+    bottom: 15%;
+}
+
+.contain7 .bt1 {
+    width: 60.5%;
+    height: 17.5%;
+    position: absolute;
+    left: 19.6%;
+    bottom: 0;
+}
+
+.contain7 .bt2 {
+    width: 75%;
+    height: 17.5%;
+    position: absolute;
+    left: 13%;
+    bottom: 0;
+}
+
+.contain7 .bt3 {
+    width: 65%;
+    height: 18%;
+    position: absolute;
+    left: 17.5%;
+    bottom: 0;
+}
+
+.contain7 .bt4 {
+    width: 61%;
+    height: 18%;
+    position: absolute;
+    left: 19%;
+    bottom: 0;
+}
+
+.contain8 {
+    /*display: none;*/
+    position: fixed;
+    left: 0;
+    bottom: -300px;
+    transition: bottom 1s ease;
+}
+
+.contain8 .d1 {
+    width: 63.7%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.contain8 .d2 {
+    width: 36.3%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
