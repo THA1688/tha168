@@ -64,8 +64,8 @@ $(function () {
                 $(".contain2 > .d1 .lunbotu:first-child").css('margin-left', `${this.margin_left()}%`);
             },
             active_yuandian: function () {
-                $(".contain2 > .d3 img").attr("src", "h5/img/not_choosed_round.png");
-                $($(".contain2 > .d3 img")[this.num]).attr("src", "h5/img/choosed_round.png")
+                $(".contain2 > .d3 img").attr("src", "https://raw.githubusercontent.com/THA1688/tha168/gh-pages/not_choosed_round.png");
+                $($(".contain2 > .d3 img")[this.num]).attr("src", "https://raw.githubusercontent.com/THA1688/tha168/gh-pages/choosed_round.png")
             },
             lunbo: function () {
                 if (this.num == 3) {
