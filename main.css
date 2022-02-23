@@ -52,7 +52,7 @@ html, body {
 }
 
 .bgd-contain > div {
-    width: 100%;
+    width: 90%;
     height: 100%;
     position: absolute;
     left: 0;
