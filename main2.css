@@ -111,7 +111,7 @@
 /*tc4*/
 .tc-contain .tc4 {
     width: 90%;
-    height: 100%;
+    height: auto;
 }
 
 .tc-contain .tc4 .d1, .tc-contain .tc4 .d2 {
