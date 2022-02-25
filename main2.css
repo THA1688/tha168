@@ -109,6 +109,11 @@
 }
 
 /*tc4*/
+.tc-contain .tc4 {
+    width: 90%;
+    height: 100%;
+}
+
 .tc-contain .tc4 .d1, .tc-contain .tc4 .d2 {
     display: -webkit-box;
     display: -webkit-flex;
