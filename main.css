@@ -81,7 +81,7 @@ img {
     font-family: "微軟正黑體", "蘋果儷中黑", "Lucida Grande", "Arial", "Arial Narrow";
     color: #A4AEBD;
 
-    background-image: url("https://raw.githubusercontent.com/THA1688/tha168/gh-pages/KUlogo001.png");
+    background-image: url("../KUlogo001.png");
     background-repeat: no-repeat;
     background-size: auto 50%;
     background-position: 5% center;
